@@ -14,13 +14,13 @@
 
 ## Getting Started
 
-Copy https://github.com/Abel-desu/Math-Magicians.git
-Get the directory that you want to clone the repository.
-Open the command prompt in this directory.
-Type git clonehttps://github.com/Abel-desu/Math-Magicians.git
-Go to the repository folder in your command prompt cd moviehub
-Run npm install to install the dev dependencies for linters and node sass.
-Run npm start to display the project on the website
+- Copy https://github.com/Abel-desu/Math-Magicians.git
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Type git clonehttps://github.com/Abel-desu/Math-Magicians.git
+- Go to the repository folder in your command prompt cd moviehub
+- Run npm install to install the dev dependencies for linters and node sass.
+- Run npm start to display the project on the website
 
 
 ## Authors
@@ -31,12 +31,6 @@ Run npm start to display the project on the website
 - Twitter: [@twitterhandle](https://twitter.com/abeldesalegn)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abel-desalegn-6486a8232/)
 
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
