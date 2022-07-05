@@ -26,12 +26,11 @@
 
 
 ## Authors
-
 👤 **Abel Desalegn**
 
-- GitHub: [@githubhandle](https://github.com/Abel-desu)
-- Twitter: [@twitterhandle](https://twitter.com/abeldesalegn)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abel-desalegn-6486a8232/)
+- GitHub: [@Abel Desalegn](https://github.com/Abel-desu)
+- Twitter: [Abel Desalegn](https://twitter.com/abeldesalegn)
+- LinkedIn: [Abel Desalegn](https://www.linkedin.com/in/abel-desalegn-6486a8232/)
 
 
 ## 🤝 Contributing
