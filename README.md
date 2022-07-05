@@ -2,55 +2,37 @@
 
 # Math Magicians
 
-> react exercise
+> This calculator is developed using reacts framework
 
 
 ## Built With
 
 - JavaScript
 - React
-- Technologies used
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Copy https://github.com/Abel-desu/Math-Magicians.git
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Type git clone https://github.com/Abel-desu/Math-Magicians.git
 
+- Go to the repository folder in your command prompt cd Math-Magicians
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Run npm install to install the dev dependencies for linters and node sass.
+- Run npm start to display the project on the website
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Abel Desalegn**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Abel Desalegn](https://github.com/Abel-desu)
+- Twitter: [Abel Desalegn](https://twitter.com/abeldesalegn)
+- LinkedIn: [Abel Desalegn](https://www.linkedin.com/in/abel-desalegn-6486a8232/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
