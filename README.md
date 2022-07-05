@@ -26,7 +26,6 @@
 
 
 ## Authors
-
 👤 **Abel Desalegn**
 
 - GitHub: [@Abel Desalegn](https://github.com/Abel-desu)
