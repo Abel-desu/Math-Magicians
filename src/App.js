@@ -1,63 +1,74 @@
 /* eslint-disable */
-import './App.css';
 import React, { Component } from 'react';
-class calculator extends React.Component {
-  constructor(props) {
-    super(props);
+import './App.css';
+import Results from './logic/operate.js';
+import Components from './logic/calculate.js';
+
+class App extends Component {
+  constructor() {
+    super();
+
     this.state = {
-      total: 0,
+      result: '',
     };
   }
 
-  render() {
-    return (
+    onClick = (button) => {
+      if (button === '=') {
+        this.calculate();
+      } else if (button === 'C') {
+        this.reset();
+      } else if (button === 'CE') {
+        this.backspace();
+      } else {
+        this.setState({
+          result: this.state.result + button,
+        });
+      }
+    };
 
-      <div className="wrapper">
+    calculate = () => {
+      let checkResult = '';
+      if (this.state.result.includes('--')) {
+        checkResult = this.state.result.replace('--', '+');
+      } else {
+        checkResult = this.state.result;
+      }
 
-        <div className="show-input" />
+      try {
+        this.setState({
+          result: `${eval(checkResult) || ''}`,
+        });
+      } catch (e) {
+        this.setState({
+          result: 'error',
+        });
+      }
+    };
 
-        <div className="digits flex">
-        
-          <div className="modifiers subgrid" />
-          <button type="button">9</button>
-          <button type="button">8</button>
-          <button type="button">7</button>
-          <button type="button">6</button>
-          <button type="button">5</button>
-          <button type="button">4</button>
-          <button type="button">3</button>
-          <button type="button">2</button>
-          <button type="button">1</button>
-          <button  type="button">0</button>
-          <button className = "zero" type="button">.</button>
+    reset = () => {
+      this.setState({
+        result: '',
+      });
+    };
+
+    backspace = () => {
+      this.setState({
+        result: this.state.result.slice(0, -1),
+      });
+    };
+
+    render() {
+      return (
+        <div>
+          <div className="calculator-body">
+            <Results result={this.state.result} />
+            <Components onClick={this.onClick} />
+          </div>
         </div>
-        <button type="button">AC</button>
-        <button type="button">+/-</button>
-        <button type="button">%</button>
-
-        <div className="operations subgrid">
-
-          <button value="+">
-            +
-          </button>
-          <button value="-">
-            -
-          </button>
-          <button value="*">
-            *
-          </button>
-          <button value="/">/</button>
-          <button
-
-            value="="
-          >
-            =
-          </button>
-        </div>
-      </div>
-
-    );
-  }
+      );
+    }
 }
 
-export default calculator;
+export default App;
+
