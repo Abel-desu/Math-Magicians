@@ -62,5 +62,5 @@ calculateFunction = (x) => {
   }
 }
 
-export default calculator;
+export default Calculator;
 
