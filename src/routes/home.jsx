@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-export default function Invoices() {
+export default function Home() {
     return (
       <main style={{ padding: "1rem 0",
        backgroundColor :'orange' }}>

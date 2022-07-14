@@ -1,5 +1,5 @@
 /* eslint-disable */
-export default function Expenses() {
+export default function Qoute() {
     return (
       <main style={{ padding: "1rem 0" }}>
         <p    style={{
